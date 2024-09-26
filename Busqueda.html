@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+
+#job-list { 
+            margin-top: 35px; 
+            border: 1px solid #ccc; 
+            text-align: left;
+            width: 100%;
+            margin: auto;
+        } 
+        #job { 
+            padding: 10px; 
+            border: 1px solid #ccc;
+            margin-bottom: 10px; 
+            width: 70%;
+            float: left;
+            background-color:transparent;
+            
+        } 
+        #jobimage {
+            width:20%; 
+            height:219px;
+            border: 1px solid #ccc; 
+            background-color: transparent; 
+            float:right; 
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+        }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+.jobimage img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+</style>
+
+
+<body>
+    <!-- Lista de empleos disponibles -->
+    <div id="job-list" class="clearfix"> 
+        <h2>Lista resultante</h2> 
+
+        <!-- Primer trabajo -->
+
+        <div id="job"> 
+            <h3>Nombre del cargo</h3> 
+            <p>Empresa</p> 
+            <p>Detalles del cargo</p> 
+            <p>Salario</p> 
+            <p>Ubicacion</p> 
+        </div> 
+            <div id ="jobimage">
+                <a href="Detalles.html">
+                    <p>  <img id="logo" src="V:\aaa.jpg" alt="Logo de la Empresa" class ="center" >   </p>
+                    </a>
+            </div>
+
+        <!-- Segundo trabajo -->
+        <div id="job"> 
+            <h3>Nombre del cargo</h3> 
+            <p>Empresa</p> 
+            <p>Detalles del cargo</p> 
+            <p>Salario</p> 
+            <p>Ubicacion</p> 
+        </div> 
+        <div id ="jobimage">
+            <a href="Detalles.html">
+                <p>  <img id="logo" src="V:\aaa.jpg" alt="Logo de la Empresa" class ="center" >   </p>
+                </a>
+            </div>
+        <!-- Tercer trabajo -->
+        <div id="job"> 
+            <h3>Nombre del cargo</h3> 
+            <p>Empresa</p> 
+            <p>Detalles del cargo</p> 
+            <p>Salario</p> 
+            <p>Ubicacion</p> 
+        </div> 
+        <div id ="jobimage">
+            <a href="Detalles.html">
+                <p>  <img id="logo" src="V:\aaa.jpg" alt="Logo de la Empresa" class ="center" >   </p>
+                </a>
+            </div>
+
+    </div> 
+</body>
